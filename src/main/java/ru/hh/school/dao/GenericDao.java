@@ -2,11 +2,8 @@ package ru.hh.school.dao;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import ru.hh.school.entity.Employer;
 
 import java.io.Serializable;
-import java.util.Collection;
-import java.util.Objects;
 
 public class GenericDao {
   private final SessionFactory sessionFactory;

@@ -1,6 +1,11 @@
 package ru.hh.school.entity;
 
-import javax.persistence.*;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.GenerationType;
 
 //TODO: оформите entity
 @Entity
